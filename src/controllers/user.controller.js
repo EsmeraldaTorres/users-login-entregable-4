@@ -38,7 +38,7 @@ const create = catchError(async (req, res) => {
     <h1>Hola ${firstName} ${lastName}</h1>
     <p>Gracias por crear una cuenta con nosotros </p>
     <p> Para verificar tu email haz click en el siguiente enlace</p>
-    <a href=${link}}>${link}</a>
+    <a href=${link}>${link}</a>
     `,
   });
   return res.status(201).json(result);
